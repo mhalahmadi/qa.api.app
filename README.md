@@ -13,6 +13,7 @@ http://qaapi.us-east-1.elasticbeanstalk.com/
 http://qaapi.us-east-1.elasticbeanstalk.com/question
 
 Outcome:
+
 ```
 "success": true, 
     "questions": [
@@ -40,6 +41,7 @@ Outcome:
 http://qaapi.us-east-1.elasticbeanstalk.com/question/create
 
 JSON body
+
 ```
 {
    "question": "What is python?"
@@ -47,6 +49,7 @@ JSON body
 ```
 
 Outcome:
+
 ```
 {
     "success": true,
@@ -66,6 +69,7 @@ Outcome:
 http://qaapi.us-east-1.elasticbeanstalk.com/answer/2
 
 JSON body
+
 ```
 {
    "answer": "it is language of brogramming"
@@ -73,6 +77,7 @@ JSON body
 ```
 
 Outcome:
+
 ```
 {
     "success": true,
@@ -84,7 +89,7 @@ Outcome:
         }
     ]
 }
-
+```
 ---
 #### Post tag
 
@@ -92,6 +97,7 @@ Outcome:
 http://qaapi.us-east-1.elasticbeanstalk.com/tag/1
 
 JSON body
+
 ```
 {
    "tag": "python"
@@ -99,6 +105,7 @@ JSON body
 ```
 
 Outcome:
+
 ```
 {
     "success": true,
@@ -118,6 +125,7 @@ Outcome:
 http://qaapi.us-east-1.elasticbeanstalk.com/comment/1
 
 JSON body
+
 ```
 {
    "comment": "programming language"
@@ -125,6 +133,7 @@ JSON body
 ```
 
 Outcome:
+
 ```
 {
     "success": true,
@@ -137,6 +146,7 @@ Outcome:
     ]
 }
 ```
+
 ---
 #### Get all answers of question
 
@@ -144,6 +154,7 @@ Outcome:
 http://qaapi.us-east-1.elasticbeanstalk.com/question/1
 
 Outcome:
+
 ```
 {
     "success": true,
@@ -158,6 +169,7 @@ Outcome:
      ]
 }
 ```
+
 ---
 #### Get all comment of answer
 
@@ -165,6 +177,7 @@ Outcome:
 http://qaapi.us-east-1.elasticbeanstalk.com/comment/1
 
 Outcome:
+
 ```
 success": true,
     "id": 1,
@@ -196,6 +209,8 @@ success": true,
 http://qaapi.us-east-1.elasticbeanstalk.com/tag/3
 
 Outcome:
+
+
 ```
 {
     "success": true,
