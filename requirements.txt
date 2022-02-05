@@ -1,0 +1,8 @@
+Flask
+Flask-SQLAlchemy
+postgres
+psycopg2-pool
+python-dotenv
+SQLAlchemy
+flask
+psycopg2-binary
